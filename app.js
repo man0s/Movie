@@ -8,7 +8,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static('public')); //serve(expr) the content of the public dir
 
 app.get("/", function(req, res){
-    var data = [];
+    var data = []; //empty array
     res.render("home", {data: data});
 });
 
