@@ -3,8 +3,6 @@ var app = express();
 var request = require('request');
 var bodyParser = require('body-parser');
 
-var port = process.env.PORT || 8080;
-
 app.set("view engine", "ejs");
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static('public')); //serve(expr) the content of the public dir
@@ -34,6 +32,6 @@ app.get("*", function(req, res){
 });
 
 
-app.listen(port, function(){
-    console.log('Server listening at', port);
+app.listen(3000, function(){
+    console.log('Server listening at', 3000);
 });
