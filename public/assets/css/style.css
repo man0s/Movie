@@ -16,6 +16,10 @@
         width: 300px;
         display: inline-block;
     }
+	
+    .jumbotron {
+    	margin-top: -15px;
+    }
 }
     
 .poster {
