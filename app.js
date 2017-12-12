@@ -33,6 +33,9 @@ app.get("*", function(req, res){
 });
 
 
-app.listen(3000, function(){
-    console.log('Server listening at', 3000);
+
+var port = process.env.PORT || 8080;
+
+app.listen(port, function(){
+    console.log('Movie started on https://localhost:' + port); 
 });
