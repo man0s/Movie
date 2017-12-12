@@ -10,10 +10,17 @@
     width: 400px;
     display: inline-block;
 }
+
+@media (max-width: 500px) {
+    .form-area {
+        width: 300px;
+        display: inline-block;
+    }
+}
     
 .poster {
     width: 350px;
-	height: 517px;
+    height: 517px;
 }
     
 .input-group-lg > .form-control, .input-group-lg > .input-group-addon, .input-group-lg > .input-group-btn > .btn {
@@ -42,7 +49,10 @@ a {
 a:hover {
     color: #212529;
 }
+<<<<<<< HEAD:public/assets/css/style.css
 
 .centered {
     text-align: center;
 }
+=======
+>>>>>>> 1f76905384581aa897e4590f54e8a7fef892c185:public/css/style.css
