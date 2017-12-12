@@ -42,3 +42,7 @@ a {
 a:hover {
     color: #212529;
 }
+
+.centered {
+    text-align: center;
+}

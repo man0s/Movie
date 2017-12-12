@@ -13,17 +13,18 @@ app.get("/", function(req, res){
 });
 
 app.post("/search", function(req, res){
-    request('https://www.omdbapi.com/?s=' + req.body.searchedQuery + '&type=movie&apikey=thewdb', function (error, response, body) {
-      if(error) console.log('StatusCode:', response && response.statusCode,'\nError:', error); // Print the error and the response status code if a response was received
-      else { 
-        var data = JSON.parse(body).Search;
-        if(JSON.parse(body).totalResults) {
-            res.render("home", {data: data});
+    var userQuery = req.body.searchedQuery;
+    request('https://www.omdbapi.com/?s=' + userQuery + '&type=movie&apikey=thewdb', function (error, response, body) {
+        if(error) console.log('StatusCode:', response && response.statusCode,'\nError:', error); // Print the error and the response status code if a response was received
+        else { 
+            var data = JSON.parse(body).Search;
+            if(JSON.parse(body).totalResults) {
+                res.render("home", {data: data});
+            }
+            else { //if there are no results
+                res.render("notfound", {userQuery: userQuery});
+            }
         }
-        else {
-            res.redirect("/");
-        }
-      }
     });
 });
 
