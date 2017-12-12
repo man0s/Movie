@@ -11,7 +11,7 @@ $ cd Movie
 $ npm install
 $ npm start
 
-Server is listening on localhost:3000
+Server is listening at localhost:3000
 ```
 
 ## Contributing
