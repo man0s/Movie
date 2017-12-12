@@ -6,7 +6,7 @@ A Movie Discovery Tool Made with <a href="https://nodejs.org">Node.js</a> & <a h
 
 ![](https://raw.githubusercontent.com/man0s/Movie/master/screenshot.png)
 
-<br>
+<br><br>
 <p align="center">You can check it out <a href="https://man0s-movie.herokuapp.com/">here</a>.</p>
 
 ## Getting Started
