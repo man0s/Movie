@@ -10,21 +10,7 @@
     width: 400px;
     display: inline-block;
 }
-<<<<<<< HEAD
-=======
 
-@media (max-width: 500px) {
-    .form-area {
-        width: 300px;
-        display: inline-block;
-    }
-	
-    .jumbotron {
-    	margin-top: -15px;
-    }
-}
->>>>>>> 1b1f38a9939d598a7178c2133b22dd0f82dabf54
-    
 .poster {
     width: 350px;
     height: 517px;
