@@ -10,13 +10,6 @@
     width: 400px;
     display: inline-block;
 }
-
-@media (max-width: 500px) {
-    .form-area {
-        width: 300px;
-        display: inline-block;
-    }
-}
     
 .poster {
     width: 350px;
@@ -52,4 +45,20 @@ a:hover {
 
 .centered {
     text-align: center;
+}
+
+@media (max-width: 500px) {
+    .form-area {
+        width: 300px;
+        display: inline-block;
+    }
+    
+    .jumbotron {
+        margin-top: -15px;
+    }
+    
+    .poster {
+        width: 300px;
+        height: 433px;
+    }
 }
