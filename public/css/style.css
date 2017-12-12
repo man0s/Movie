@@ -10,10 +10,17 @@
     width: 400px;
     display: inline-block;
 }
+
+@media (max-width: 500px) {
+    .form-area {
+        width: 300px;
+        display: inline-block;
+    }
+}
     
 .poster {
     width: 350px;
-	height: 517px;
+    height: 517px;
 }
     
 .input-group-lg > .form-control, .input-group-lg > .input-group-addon, .input-group-lg > .input-group-btn > .btn {
