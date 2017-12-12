@@ -12,5 +12,5 @@
     "express": "^4.16.2",
     "request": "^2.83.0"
   },
-  "repository": "https://github.com/man0s/Movie",
+  "repository": "https://github.com/man0s/Movie"
 }
