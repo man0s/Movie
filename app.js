@@ -32,5 +32,5 @@ app.get("*", function(req, res){
 
 
 app.listen(3000, '127.0.0.1', function(){
-    console.log('Server started at', process.env.PORT);
+    console.log('Server listening at', 3000);
 });
