@@ -1,0 +1,16 @@
+{
+  "name": "movie",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": { "start": "node app.js" },
+  "author": "Emmanouil Katefidis",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "request": "^2.83.0"
+  },
+  "repository": "https://github.com/man0s/Movie",
+}

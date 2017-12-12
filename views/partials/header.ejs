@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>M🔍vie | Movie Discovery Tool</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- style.css -->
+    <link href="/css/style.css" rel="stylesheet">
+    </head>
+<body>
+
+<div class="jumbotron text-center">
+	<img class="logo" src="/images/logo.png">
+	<hr>
+    <form action="/search" method="POST">
+        <div class="form-area">
+            <div class="input-group input-group-lg">
+                <input type="text" class="form-control" name="searchedQuery" placeholder="Movie Name" />
+                    <div class="input-group-btn">
+                         <button class="btn"><i class="fa fa-search" aria-hidden="true"></i></button>
+                    </div>
+            </div>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,44 @@
+.logo {
+    width: 180px;
+}
+    
+.jumbotron {
+    margin-top: -45px;
+}
+
+.form-area {
+    width: 400px;
+    display: inline-block;
+}
+    
+.poster {
+    width: 350px;
+	height: 517px;
+}
+    
+.input-group-lg > .form-control, .input-group-lg > .input-group-addon, .input-group-lg > .input-group-btn > .btn {
+	height: 49px;
+}
+    
+.btn {
+    color: #ffffff;
+    background-color: rgba(45, 68, 82, 0.65);
+}
+    
+hr {
+    width: 60%;
+    border: 0; 
+    height: 1px; 
+    background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+}
+    	
+a {
+    color: #212529;
+}
+    	
+a:hover {
+    color: #212529;
+}
