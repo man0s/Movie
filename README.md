@@ -1,7 +1,7 @@
 # Movie
 M🔍vie | A simple movie discovery tool made with Node.js and OMDb API
 
-![](https://raw.github.com/man0s/Movie/master/Screenshot.png)
+![](https://raw.githubusercontent.com/man0s/Movie/master/Screenshot.PNG)
 
 ## Getting Started
 
