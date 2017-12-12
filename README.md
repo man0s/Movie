@@ -1,5 +1,5 @@
 # Movie
-M🔍vie | A simple movie discovery tool made with Node.js and OMDb API
+M🔍vie | A Movie Discovery Tool Made with <a href="https://nodejs.com">Node.js</a> & <a href="https://www.omdbapi.com">OMDb API</a>
 
 ![](https://raw.githubusercontent.com/man0s/Movie/master/Screenshot.PNG)
 
